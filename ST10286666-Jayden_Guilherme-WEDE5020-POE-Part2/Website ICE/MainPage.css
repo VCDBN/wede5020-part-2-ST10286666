@@ -1,0 +1,70 @@
+body{
+    margin:0
+}
+
+Header{
+    padding: 10px;
+}
+
+/*Style the top nav*/
+.topnav{
+    overflow:hidden;
+    background-color: black;
+}
+
+.topnav a{
+    float: left;
+    display:block;
+    color:white;
+    font-size: large;
+    text-align: center;
+    padding: 16px 17px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: olive;
+    color: white;
+}
+
+#HomeMenu{
+    float: right;
+    background-color: black;
+    border: 2px solid olive;
+   }
+   
+   #HomeMenu a:hover{
+    background-image: linear-gradient(to right, olive,grey);
+   }
+.imageTree{
+    padding: 10px;
+    float:left;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+
+.imageTree2{
+    padding: 10px;
+    float:right;
+    vertical-align: bottom;
+    border-style: hidden; 
+    Background-color: white;
+}
+
+
+.column.middle{
+    padding: 10px;
+    height: 75vh;
+    width: 85vw;
+    text-align: center;
+  
+}
+
+
+.footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

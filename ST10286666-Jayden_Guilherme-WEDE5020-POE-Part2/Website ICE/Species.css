@@ -1,0 +1,213 @@
+ body{
+    margin: 0;
+ }
+
+ header{
+    padding: 10px;
+   }
+
+ #Logo{
+  float: left;
+ }
+
+ .topnav{
+  overflow:hidden;
+  background-color: black;
+}
+
+.topnav a{
+  float: left;
+  display:block;
+  color:white;
+  font-size: large;
+  text-align: center;
+  padding: 16px 17px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background-color: olive;
+  color: white;
+}
+
+#HomeMenu{
+float: right;
+background-color: black;
+border: 2px solid olive;
+}
+
+#HomeMenu a:hover{
+background-image: linear-gradient(to right, olive,grey);
+}
+
+   .Capybara{
+    position: relative;
+    top: 30px;
+    left: 230px;
+    padding: 10px;
+    float: left;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .Capybara p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .Capybara img{
+border:2px solid;
+border-color: red;
+  }
+
+  .HowlerMonkey{
+    position: relative;
+    top: 30px;
+    right:230px;
+    padding: 10px;
+    float: right;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .HowlerMonkey p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .HowlerMonkey img{
+border:2px solid;
+border-color: grey;
+  }
+
+ 
+
+  .BlackCaimen{
+    position: relative;
+    top: 640px;
+    right:150px;
+    padding: 10px;
+    float: left;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .BlackCaimen p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .BlackCaimen img{
+border:2px solid;
+border-color: grey;
+  }
+
+
+
+  .BlueMacaw{
+    position: relative;
+    top:640px;
+    left:190px;
+    padding: 10px;
+    float: right;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .BlueMacaw p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .BlueMacaw img{
+border:2px solid;
+border-color: red;
+  }
+
+ 
+
+  .RiverDolphin{
+    position: relative;
+    top:680px;
+    right:150px;
+    padding: 10px;
+    float: left;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .RiverDolphin p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .RiverDolphin img{
+   border:2px solid;
+   border-color: grey;
+  }
+
+.Key{
+  text-align: center;
+  border:2px solid black;
+  width: 100px;
+  height: 125px;
+  position: relative;
+  bottom: 1785px;
+  left:860px;
+}
+
+  .SouthAmericanTapir{
+    position: relative;
+    top:680px;
+    left:190px;
+    padding: 10px;
+    float: right;
+    vertical-align: bottom;
+    border-style: hidden;
+    background-color: white;
+}
+ 
+  .SouthAmericanTapir p{
+    background-color: olive;
+    text-align: center;
+  }
+
+  .SouthAmericanTapir img{
+   border:2px solid;
+   border-color: red;
+  }
+
+ .Text{
+float: right;
+ text-align: center;
+ margin-right:13cm ;
+ border-style: hidden;
+ background-color: white;
+ 
+ }
+
+ .Text h1{
+  background-color: black;
+  color: white;
+ }
+
+ .Text p{
+  background-color: olive;
+ }
+
+.ColumnMid{
+    height: 200vh;
+    width: 85vw;
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

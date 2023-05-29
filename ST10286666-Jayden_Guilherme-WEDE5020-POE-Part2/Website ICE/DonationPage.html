@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/CSS" href = "DonationPage.css">
+    <script>
+     function fetch()
+     {
+      var Range = document.getElementById("Range").value;
+      document.getElementById("put").value = Range;
+      
+     }
+    </script>
+</head>
+<style>
+     h1{
+   text-align: center;
+   background-color: black;
+   color: white;
+ }
+
+     body{
+      background-color: gainsboro;
+ }
+
+ table, th, td{
+        border: 1px solid;
+        width: 13cm;
+        text-align: center;
+    }
+
+    th{
+     background-color: black;
+     color: white;
+    }
+
+    td:hover{
+     background-color: white;
+    }
+
+    td{
+    background-color: olive;
+    }
+
+   h2{
+     background-color: black;
+     color: white;
+     text-align: center;
+    }
+
+    img{
+      float: left;
+    }
+
+    @media only screen and  (max-width:360px){
+  .header{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+  }
+ }
+
+ @media only screen and (max-width:360px){
+  .topnav{
+    width:100%;
+    height:100%;
+    padding:2px;
+  }
+
+  #HomeMenu{
+  float:left;
+   padding: 2px;
+  }
+
+  .imageTree{
+    max-width: 100%;
+  }
+ }
+</style>
+<body>
+
+    <div class = "header"> 
+      <img src = "Logo.jpg" alt = "Website Logo" style="width:120px; height: 112px;">
+        <h1>Donation Page </h1>
+        </div>
+
+        <div class="topnav">
+          <a href = "AboutPage.html">About &nabla;</a>
+          <a href = ContactPage.html>Contact &nabla;</a>
+          <a href = DonationPage.html>Donations &nabla;</a>
+          <a href = Species.html>Species &nabla;</a>
+          <a href = Tribes.html> Indigenous People &nabla;</a>
+      <div class id="HomeMenu">
+         <a href = "MainPage.Html">&#127968;Main Page</a>
+      </div>
+          </div>
+
+    <div class = "ImageTreeRight">
+        <img src = "AmazonRiver.jpg" alt = "river" width = 389 height = 350>
+        <h2> Donation Info</h2>
+        <p>By donatating to the Solving Environmnetal Problems<br>
+           you are saving many animals that are being endangered<br>
+           and many indigenous people from losing there habitat as<br>
+           well as there food source and water source by donating you<br>
+           are helping that from being prevented and any little bit helps<br>
+            </p>
+    </div>
+
+    <div class = "CenterText">
+     <table>
+        <tr>
+          <th>
+            Cause
+          <th>
+            Infomation
+        <th>
+        <tr>
+          <td>
+        Planting of trees
+          <td>
+        &rarr; Everytime a donation is made to this cause we will plant a tree in the honor of the donation.
+          <td>
+        <img src = "Amazon.jpg" width = 125px height = 125px>
+        <tr>
+          <td>
+        For the capybara
+          <td>
+        &rarr; Everytime a donation is made to this cause it will go to a trust fund for the Capybara foundation.
+          <td>
+         <img src = "capybara.jpg" width = 125px height = 125px>
+        <tr>
+          <td>
+        For the blue Macaw
+          <td>
+        &rarr; Everytime a donation is made to this cause it will go to a trust fund for the Blue Macaw foundation.
+        <td>
+            <img src = "Bluemacaw.jpg" width = 125px height = 125px>
+        <tr>
+          <td>
+        For the South American Tapir
+          <td>
+        &rarr; Everytime a donation is made to this cause it will go to a trust fund for the South American Tapir foundation.
+        <td>
+            <img src = "Tapir.jpg" width = 125px height = 125px>
+          </td>
+            </th>
+        </tr>
+     </table>
+    </div> 
+<div class = RegFormBG>
+
+</div>
+<div class ="RegForm">
+  <form>
+  
+    <div>
+    <label for = "fname">Name and Surname</label>
+    <input type="text" id = "fname" placeholder="Enter your name and surname">
+    </div>
+
+    <div>
+      <p>Select form of payment</p>
+
+      <label for ="Radio">PayPal</label>
+      <input type="radio" id = "Radio">
+
+      <label for ="Radio">EFT</label>
+      <input type="radio" id = "Radio">
+
+      <label for ="Radio">Zapper</label>
+      <input type="radio" id = "Radio">
+
+      <label for ="Radio">Credit Card</label>
+      <input type="radio" id = "Radio">
+
+      <label for ="Radio">Debit Card</label>
+      <input type="radio" id = "Radio">
+    </div>
+
+    <div>
+      <label for = "Range">Enter the Amount</label>
+      <input type="range" min = "0" max="250" id = "Range" step="1" onchange="fetch()">
+      <input type="text" id = "put">
+    </div>
+
+    <div>
+    <label for = "Cause">Cause</label><br>
+    <select id = "Cause"><br>
+      <option value = "Cause">Planting Trees</option>
+      <option value = "Cause">Blue Macaw</option>
+      <option value = "Cause">Capybara</option>
+      <option value = "Cause">South American Tapir</option>
+    </select>
+    </div>
+
+    <div>
+      <Input id = "Submit" type="button"  onclick="alert('Your Donation has succsessfully gone through!')" value="Submit">
+    </div>
+  </form>
+
+</div>
+    <div class = "footer">
+        <P>Copyright 2023</P>
+        <p>www.SolvingEnvironmnetalProblems.org.za</p>
+
+</body>
+</html>
